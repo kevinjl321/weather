@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html {
+  box-sizing: border-box;
+  
+}
+
+*{
+  font-family: "Inter"!important
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ui.segment.show-loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+body {
+  background-color: #09101a;
+  color: white;
+}
+
+input::placeholder{
+  color: grey !important;
+}
